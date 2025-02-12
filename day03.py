@@ -37,3 +37,4 @@ print(my_pow(25, 0.5))  # ieee 754
 # print(math.exp(1))
 # print(math.e)
 # print(math.log(16, 2))
+# 수정 완료하였습니다.
