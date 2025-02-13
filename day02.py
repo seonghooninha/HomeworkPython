@@ -36,8 +36,8 @@ def is_prime(num) -> bool:
     """
     if num >= 2:
         i = 2
-        while i < (int(my_pow(num, 0.5)) + 1):
-        #while i*i < num+1:
+        #while i < (int(my_pow(num, 0.5)) + 1):
+        while i*i < num+1:
             if num % i == 0:
                 return False
             i = i + 1
@@ -59,3 +59,5 @@ while j <= n2:
     if is_prime(j):
         print(j, end=' ')
     j = j + 1
+
+    #수정 완료
